@@ -1,4 +1,8 @@
 <?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class HomeController extends BaseController {
 
@@ -19,5 +23,9 @@ class HomeController extends BaseController {
 	{
 		return View::make('hello');
 	}
+	public function index()
+    {
+        
+    }
 
 }

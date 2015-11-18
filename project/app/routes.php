@@ -11,7 +11,18 @@
 |
 */
 
-Route::get('/', function()
+/*Route::get('/', function()
 {
 	return View::make('hello');
 });
+*/
+
+
+Route::get('/', 'SessionController@session_show');
+        
+
+/*Route::get('contact', 
+  ['as' => 'contact', 'uses' => 'AboutController@create']);
+Route::post('contact', 
+  ['as' => 'contact_store', 'uses' => 'AboutController@store']);
+  */
