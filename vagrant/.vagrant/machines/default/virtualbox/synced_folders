@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"virtualbox":{"/srv/laravel-project":{"guestpath":"/srv/laravel-project","hostpath":"C:/Users/subash/Documents/GitHub/subash-laravel-project","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/subash/Documents/GitHub/subash-laravel-project/vagrant","disabled":false}}}
+=======
+{"virtualbox":{"/srv/laravel-project":{"guestpath":"/srv/laravel-project","hostpath":"C:/Users/subash acharya/Documents/GitHub/laravel-project","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/subash acharya/Documents/GitHub/laravel-project/vagrant","disabled":false}}}
+>>>>>>> origin/master
