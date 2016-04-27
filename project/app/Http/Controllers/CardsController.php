@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Card;
+use App\Note;
 
 use Illuminate\Http\Request;
 
@@ -54,6 +55,15 @@ class CardsController extends Controller {
 		// return $card;// same work will be done by passing type hinting
 
 		return $card;
+		//return view('cards.show',compact(card));
+	}
+	public function note($id)
+	{
+		//
+		 $note=Note::find($id);
+		// return $card;// same work will be done by passing type hinting
+
+		return $note;
 		//return view('cards.show',compact(card));
 	}
 

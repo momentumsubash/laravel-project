@@ -16,6 +16,7 @@ Route::get('/', 'WelcomeController@index');
 Route::get('home', 'HomeController@index');
 Route::get('cards', 'CardsController@index');
 Route::get('cards/{card}', 'CardsController@show');
+Route::get('cards/{card}/notes/{note}', 'CardsController@note');
 
 Route::controllers([
 	'auth' => 'AuthController',
